@@ -18,3 +18,9 @@ func main() {
 		fmt.Println("x is greater than or equal to 200")
 	}
 }
+
+func init() {
+	// This init function runs before main
+	// It can be used for setup tasks
+	fmt.Println("Switch Statement Example")
+}
